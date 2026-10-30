@@ -3,7 +3,7 @@
 // Runs on Netlify at /api/translate.
 
 const MODEL = process.env.GEMINI_MODEL || "gemini-flash-lite-latest";
-const MAX_INPUT = 2000;           // characters a visitor can send
+const MAX_INPUT = 3000;           // characters a visitor can send
 const LIMIT = 10;                 // requests per visitor...
 const WINDOW_MS = 10 * 60 * 1000; // ...per 10 minutes (best effort)
 
